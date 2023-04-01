@@ -8,7 +8,7 @@ rm -rf .git
 
 cd ..
 
-GIT_CMD_REPOSITORY="https://$AZUSERNAME:$AZUREPAT@dev.azure.com/$AZORG/Abdul/_git/syncWithgitEshopCommerce"
+GIT_CMD_REPOSITORY="https://$AZUREPAT:Learning-Devops-7777@dev.azure.com/Learning-Devops-7777/Abdul/_git/syncWithgitEshopCommerce"
 git clone $GIT_CMD_REPOSITORY
 
 cp -r ./-testAzureDevops/* ./syncWithgitEshopCommerce/
