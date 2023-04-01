@@ -8,7 +8,7 @@ rm -rf .git
 
 cd ..
 
-GIT_CMD_REPOSITORY="https://5o5kcsg2hhx5heyixa7e6deigrgbgvlwwxx6ckzv52zuooppglea:nageshdevops77@outlook.com@dev.azure.com/Learning-Devops-7777/Abdul/_git/syncWithgitEshopCommerce"
+GIT_CMD_REPOSITORY="https://m7abhqhcplg26dj5tx2brzsxo65o2uj4iyvbpr46pifgyk22mjba:Learning-Devops-7777@dev.azure.com/Learning-Devops-7777/Abdul/_git/syncWithgitEshopCommerce"
 git clone $GIT_CMD_REPOSITORY
 
 cp -r ./-testAzureDevops/* ./syncWithgitEshopCommerce/
