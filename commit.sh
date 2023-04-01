@@ -8,10 +8,8 @@ rm -rf .git
 
 cd ..
 
-MY_PAT=pddc6c4ynlotk2jindxdhozaghtwr756eqzzphqqzjemnkc4pxoa # replace "yourPAT" with your PAT string
-B64_PAT=$(printf "%s"":$MY_PAT" | base64)
-GIT_CMD_REPOSITORY="https://Learning-Devops-7777@dev.azure.com/Learning-Devops-7777/Abdul/_git/syncWithgitEshopCommerce"
-git -c http.extraHeader="Authorization: Basic ${B64_PAT}" clone $GIT_CMD_REPOSITORY
+GIT_CMD_REPOSITORY="https://anything:63swx2wzbhgxlskg75gcftaip6d5bex7bue2slugvsauptyaa32a@dev.azure.com/Learning-Devops-7777/Abdul/_git/syncWithgitEshopCommerce""
+git clone $GIT_CMD_REPOSITORY
 
 cp -r ./-testAzureDevops/* ./syncWithgitEshopCommerce/
 
